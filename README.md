@@ -181,35 +181,6 @@ The base premium is adjusted weekly using ML risk factors:
 - **CI/CD:** GitHub Actions
 - **Version Control:** GitHub (this repo)
 
----
-
-## 🗂️ Development Plan
-
-### Phase 1 (Mar 4–20): Ideation & Foundation ✅
-- [x] Finalize persona and disruption triggers
-- [x] Define weekly pricing model
-- [x] Design application workflow
-- [ ] Set up GitHub repo and project structure
-- [ ] Create wireframes (Figma) for core screens
-- [ ] Build minimal prototype (onboarding + policy purchase screen)
-- [ ] Record 2-minute strategy video
-
-### Phase 2 (Mar 21–Apr 4): Automation & Protection
-- [ ] Worker registration + OTP auth
-- [ ] Risk profiling flow (zone selection, earnings input)
-- [ ] Weekly policy purchase with Razorpay sandbox
-- [ ] Weather API integration + trigger monitoring engine
-- [ ] Claims dashboard (auto-triggered claims visible to worker)
-- [ ] Basic fraud scoring (GPS zone validation)
-
-### Phase 3 (Apr 5–17): Scale & Optimise
-- [ ] Full ML-based fraud detection
-- [ ] Instant payout simulation (Razorpay test mode)
-- [ ] Worker dashboard (earnings protected, weekly coverage status)
-- [ ] Admin/insurer dashboard (loss ratios, disruption predictions)
-- [ ] Final demo video + pitch deck
-
----
 
 ## 🏗️ Repository Structure (Planned)
 
@@ -234,24 +205,3 @@ gigshield/
 ```
 
 ---
-
-## 👥 Team
-
-| Member | Role |
-|---|---|
-| Mridula | Team Leader — Strategy, coordination, business model & pitch |
-| KarthiKeyan | Backend Lead — APIs, trigger engine, database |
-| Salini | Frontend Developer — React Native app, screens & navigation |
-| Karthigeiyan | UI/UX Designer — Wireframes, design system, user experience |
-
----
-
-## 📎 Links
-
-- 🎥 **2-Minute Strategy Video:** [Link to be added]
-- 🖼️ **Wireframes (Figma):** [Link to be added]
-- 📋 **Project Board:** [GitHub Projects link]
-
----
-
-> *GigShield is built for the Guidewire DEVTrails 2026 University Hackathon. Coverage is strictly limited to income loss from external disruptions. No health, life, accident, or vehicle repair coverage is included.*
